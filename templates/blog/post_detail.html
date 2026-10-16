@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>{{ post.title }}</h3><br>
+<p>{{ post.content }}</p><br>
+<a href="{% url 'post_update' post.pk %}">tahrirlash </a><br><br><br>
+<a href="{% url 'post_delete' post.pk  %}">o'chirish</a><br>
+</body>
+</html>
